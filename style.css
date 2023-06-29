@@ -10,3 +10,27 @@
     --email-color:#26c8ed;
     --paragraf-color:#110f2b;
 }
+
+body {
+    background-color: blue;
+}
+
+header , main {
+    max-width: 1170px;
+    width: 80%;
+    margin:auto
+}
+
+.card {
+    float: left;
+    width: calc(100% / 3);
+    height: 80px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
