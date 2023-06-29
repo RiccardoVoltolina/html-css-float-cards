@@ -12,20 +12,22 @@
 }
 
 body {
-    background-color: blue;
-}
+        max-width: 1170px;
+        width: 80%;
+        margin:auto;
+        text-align: center;
+    }
+    
 
-header , main {
-    max-width: 1170px;
-    width: 80%;
-    margin:auto
-}
+
 
 .card {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 35px);
     background-color: var(--bck-card);
     color: white;
+    margin-left: 35px;
+    margin-bottom: 35px;
 }
 
 
@@ -49,20 +51,19 @@ p {
 img {
     max-width: 100px;
     float: left;
-    margin-right: 1rem;
+    margin-right: 15px;
 }
 
 .bio {
     padding-top: 10px;
     display: block;
+    text-align: left;
 }
 
 a {
     color: var(--email-color);
     text-decoration: none;
 }
-
-
 
 
 
