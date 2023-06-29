@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bck-card :#0f0e17;
+    --title-color:#e53170;
+    --email-color:#26c8ed;
+    --paragraf-color:#110f2b;
+}
