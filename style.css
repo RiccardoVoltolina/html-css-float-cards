@@ -77,4 +77,5 @@ a {
 
 .ombra {
     box-shadow: 0 0 5px black;
+    min-height: 100px;
 }
